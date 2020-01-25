@@ -27,3 +27,4 @@ class PigLatinizer
       "#{word[consonants.length..-1] + consonants.join + "ay"}"
     end
 end
+end
