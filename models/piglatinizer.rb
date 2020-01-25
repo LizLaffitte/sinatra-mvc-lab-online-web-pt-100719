@@ -12,6 +12,6 @@ class PigLatinizer
                 new_string += word.gsub(cons, "") + cons + "ay "
             end
         end
-        "#{new_string}"
+        new_string.rstrip
     end
 end
